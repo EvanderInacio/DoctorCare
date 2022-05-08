@@ -1,0 +1,187 @@
+
+
+/*============== NAV ======================*/
+
+nav{
+  position: fixed;
+  background: var(--background-primary);
+  width: 100vw;
+  height: var(--nav-height);
+  text-align: center;
+  z-index: 90;
+}
+
+
+.logo{
+  padding-top: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 1.5rem;
+}
+
+nav.scroll{
+  background: var(--first-color);
+}
+
+nav.scroll svg:nth-child(1) path{
+  fill: white;
+}
+
+nav.scroll button path{
+  stroke: white; 
+}
+
+
+@media(max-width: 1200px){
+
+  .menu{
+    background: var(--first-color);
+    height: 0;
+    width: 100vw;
+    padding-top: 2rem;
+    z-index: 100;
+    transition: .5s; 
+    display: block;
+    overflow-y: hidden;
+    visibility: hidden;
+  }
+}
+
+#nav.active .menu{
+  visibility: visible;
+  overflow-x: visible;
+  height: 100vh;
+}
+
+nav button{
+  border:  none;
+  background: var(--background-primary);
+  cursor: pointer;
+}
+
+#nav .open{
+  background: none;
+}
+
+#nav.active .open{
+  display: none;
+}
+
+#nav .close{
+  display: none;
+}
+
+#nav.active .close{
+  display: block;
+  background: var(--first-color);
+} 
+
+.ul-links li{
+  padding-bottom: var(--mb-3);
+}
+
+.ul-links li a{
+  color: #ffff;
+  font-size: var(--mb-1-5);
+  font-weight: var(--font-bold);
+  line-height: 31.25px;
+  text-align: center;
+}
+
+.ul-links .nav-agende a{
+  background: #FFFFFF;
+  color: var(--first-color);
+  border-radius: 40px;
+  padding: 16px 32px;
+}
+
+.ul-links .nav-agende a:hover{
+  background: #d6d3d3;
+}
+
+.nav-social{
+  margin-top: 5px;
+  font-size: var(--mb-1-5);
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-icon{
+  color: white;
+}
+
+
+
+/* =============== MEDIA ====================== */
+@media (min-width: 1200px){
+  .menu-mobile,
+  .nav-social{
+    display: none;
+  }
+
+  nav{
+    height: 5rem;
+  }
+
+  #nav{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .ul-links{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 2rem;
+  }
+
+  .ul-links li a{
+    font-size: 1.3rem;
+  }
+
+  nav.scroll li a{
+    color: white;
+  }
+
+  nav.scroll .nav-agende a{
+    color: white;
+    border-color: white;
+  }
+
+  nav.scroll .nav-agende a:hover{
+    background: var(--background-second);
+    border-bottom: none;
+    color: var(--first-color);
+  }
+
+  .ul-links .nav-agende a{
+    background: transparent;
+    border: 1px solid var(--first-color);
+    color: var(--first-color);
+    border-radius: 40px;
+    padding: 10px;
+  }
+
+  .ul-links .nav-agende a:hover{
+    background: var(--first-color);
+    color: white;
+    border-bottom: none;
+  }
+
+  .ul-links li a{
+    color: var(--first-color);
+  }
+
+ .ul-links li a:hover{
+    border-bottom: 2px solid var(--first-color);
+  }
+
+  nav.scroll .ul-links li a:hover{
+    border-bottom: 2px solid white;
+  }
+
+}
+

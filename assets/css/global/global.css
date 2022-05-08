@@ -1,0 +1,68 @@
+
+
+/*==================== GLOBAL ========================*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'DM Sans';
+} 
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+:root{
+
+  --nav-height: 4rem;
+
+  /*====== Cor ====== */
+  --background-primary: hsl(257, 100%, 93%);
+  --background-second:  hsl(180, 14%, 97%);
+
+  --first-color: hsl(255, 53%, 50%);
+  --second-color: hsl(255, 77%, 45%);
+  --title-color: hsl(210, 11%, 15%);
+  --text-color-second:  hsl(210, 9%, 31%);
+
+  --stats-color: hsl(39, 100%, 97%);
+
+  /*====== font-size ====== */
+  --h1-font-size: 2.2rem;
+  --h2-font-size: 1.7rem;
+  --h3-font-size: 1.3rem;
+  --h4-font-size: 0.875rem;
+  --text-font-size: 1rem;
+
+ /*====== margins-bottom ====== */
+ --mb-1: 1rem;
+ --mb-1-5: 1.5rem;
+ --mb-2: 2rem;
+ --mb-2-5: 2.5rem;
+ --mb-3: 3rem;
+ --mb-3-5: 3.5rem;
+
+/*====== Font Weight ====== */
+ --font-regular: 400;
+ --font-bold: 700;
+
+}
+
+@media (min-width: 1200px){
+
+ :root{
+  --h1-font-size: 3.2rem;
+  --h2-font-size: 2.5rem;
+  --text-font-size: 1.2rem;
+ }
+
+}
