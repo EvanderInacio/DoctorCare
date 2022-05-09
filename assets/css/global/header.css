@@ -177,16 +177,20 @@ nav button{
     border-bottom: none;
   }
 
+  nav.scroll .ul-links .nav-agende a:hover{
+    color: black;
+  }
+
   .ul-links li a{
     color: var(--first-color);
   }
 
  .ul-links li a:hover{
-    border-bottom: 2px solid var(--first-color);
+    color: hsl(285, 98%, 50%);
   }
 
   nav.scroll .ul-links li a:hover{
-    border-bottom: 2px solid white;
+   color: hsl(257, 45%, 76%);
   }
 
 }
