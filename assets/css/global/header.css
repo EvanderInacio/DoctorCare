@@ -117,6 +117,12 @@ nav button{
 
 
 /* =============== MEDIA ====================== */
+@media (max-width: 340px){
+  nav .menu{
+    width: 106vw;
+  }
+}
+
 @media (min-width: 1200px){
   .menu-mobile,
   .nav-social{
