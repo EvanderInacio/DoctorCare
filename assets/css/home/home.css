@@ -477,6 +477,11 @@
   text-align: center;
 }
 
+.span-contact{
+  text-align: left;
+  justify-content: center;
+}
+
 .title-contact{
   font-weight: var(--font-bold);
   font-size: var(--h2-font-size);
@@ -560,6 +565,11 @@
     grid-template-columns: repeat(2, 1fr);
     gap: var(--mb-2);
   }
+
+  .swiper-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media(min-width: 994px){
@@ -577,6 +587,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
 
 }
 
