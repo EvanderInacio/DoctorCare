@@ -84,6 +84,7 @@ body::-webkit-scrollbar-thumb {
   opacity: 0;
   transition: 0.3s;
   transform: translateY(100%);
+  z-index: 200;
 }
 
 .back-top.show {
