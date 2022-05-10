@@ -5,7 +5,7 @@
 
 ## 📝 Descrição 
 
-Um website para uma clinica medica.  [doctor-care-one.vercel.app/](https://doctor-care-one.vercel.app/)
+Um website para uma Clínicas médica.  [doctor-care-one.vercel.app/](https://doctor-care-one.vercel.app/)
 
 ## 🚀 Tecnologias
 
