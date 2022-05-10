@@ -2,10 +2,13 @@
   DoctorCare 👨‍⚕️
 </h1>
 
+<img src="https://raw.githubusercontent.com/EvanderInacio/DoctorCare/main/assets/images/doctor-care-one.vercel.app_.png">
 
 ## 📝 Descrição 
 
-Um website para uma Clínicas médica.  [doctor-care-one.vercel.app/](https://doctor-care-one.vercel.app/)
+Um site para uma Clínica médica. Feita durante o evento da Rocketseat (NLW - Return)
+
+- site final: [doctor-care-one.vercel.app/](https://doctor-care-one.vercel.app/)
 
 ## 🚀 Tecnologias
 
@@ -21,7 +24,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Google Fonts](https://fonts.google.com/)
 - [ScrollReveal](https://scrollrevealjs.org/)
-- [FORMSUBMIT](https://formsubmit.co/)
 
 ## 💻 Autor<br>
 <table>
