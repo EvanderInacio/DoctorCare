@@ -6,7 +6,7 @@
 
 ## 📝 Descrição 
 
-Um site para uma Clínica médica. Feita durante o evento da Rocketseat (NLW - Return)
+Um website da Clínica médica DoctorCare. Feita durante o evento da Rocketseat (NLW - Return)
 
 - site final: [doctor-care-one.vercel.app/](https://doctor-care-one.vercel.app/)
 
@@ -18,14 +18,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
------
-
 ## 📚 Bibliotecas
 
 - [Google Fonts](https://fonts.google.com/)
 - [ScrollReveal](https://scrollrevealjs.org/)
 
-## 💻 Autor<br>
+
+## 💻 Autor
 <table>
   <tr>
     <td align="center">
@@ -38,3 +37,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
     </td>
   </tr>
 </table>
+
+-----
+
+  <h3 align="center"> Developed by <a href="https://www.linkedin.com/in/kennedybarros/">Evander Inácio</a> ☕</h3>
+
+
